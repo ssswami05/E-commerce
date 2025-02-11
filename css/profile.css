@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f13ab1;; /* Myntra's brand color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.searchBar {
+    margin-left: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.icons {
+    margin-left: 20px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile-info, .profile-orders {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 45%;
+}
+
+.profile-info h3, .profile-orders h3 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
